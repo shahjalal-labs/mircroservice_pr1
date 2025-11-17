@@ -1,8 +1,8 @@
 //
 const User = require("../models/User");
-const generateTokens = require("./generateToken");
-const logger = require("./logger");
-const { validateRegistration } = require("./validation");
+const generateTokens = require("../utils/generateToken");
+const logger = require("../utils/logger");
+const { validateRegistration } = require("../utils/validation");
 
 const registerUser = async (req, res) => {
   logger.info("Registration endpoint hit...");
