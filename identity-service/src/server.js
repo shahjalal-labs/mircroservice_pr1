@@ -4,18 +4,24 @@ require("dotenv").config();
 
 const helmet = require("helmet");
 const express = require("express");
+const routes = require("./routes/identity-service");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const logger = require("./utils/logger");
 
 const Redis = require("ioredis");
 const { RateLimiterRedis } = require("rate-limiter-flexible");
-const { default: rateLimit } = require("express-rate-limit");
-const { default: RedisStore } = require("rate-limit-redis");
+const { rateLimit } = require("express-rate-limit");
+const { RedisStore } = require("rate-limit-redis");
+const errorHandler = require("./middleware/errorHandler");
 
 const app = express();
 
 const PORT = process.env.PORT || 3001;
+mongoose
+  .connect(process.env.MONGODB_URL)
+  .then(() => logger.info("Connected to mongodb"))
+  .catch((e) => logger.error("Mongo connection error", e));
 
 const redisClient = new Redis(process.env.REDIS_URL);
 
@@ -76,10 +82,16 @@ const sensitiveEndpointsLimiter = rateLimit({
 app.use("/api/auth/register", sensitiveEndpointsLimiter);
 
 // Routes
+app.use("/api/auth", routes);
 
-app.use("/api/auth", route);
+// error handler
 
-mongoose
-  .connect(process.env.MONGODB_URL)
-  .then(() => logger.info("Connected to mongodb"))
-  .catch((e) => logger.error("Mongo connection error", e));
+app.use(errorHandler);
+
+app.listen(PORT, () => {
+  logger.info(`Identity service running on port ${PORT}`);
+});
+
+process.on("unhandledRejection", (reason, promise) => {
+  logger.error("Unhandled Rejection at", promise, "reason:", reason);
+});
