@@ -15,6 +15,7 @@
         "jsonwebtoken": "^9.0.2",
         "mongoose": "^8.19.4",
         "rate-limit-redis": "^4.2.3",
+        "rate-limiter-flexible": "^8.2.1",
         "winston": "^3.18.3",
       },
       "devDependencies": {
@@ -302,6 +303,8 @@
     "range-parser": ["range-parser@1.2.1", "", {}, "sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg=="],
 
     "rate-limit-redis": ["rate-limit-redis@4.2.3", "", { "peerDependencies": { "express-rate-limit": ">= 6" } }, "sha512-33Ai6fGBGSxctJxNZRyxzUrqMxcCcnj+EXMJ876c5UTth/wgyWCO7VjTfCEq9+Timjt5/uSFR+whc9/Et0hk/A=="],
+
+    "rate-limiter-flexible": ["rate-limiter-flexible@8.2.1", "", {}, "sha512-QreyZSG7jJepD7wbMVG0wvkMx8MZaCKdnpUIffoQ/xavM7PKzpSfzrs6DISVb00LXckV1lQ3NSkc4xL3ZaUVLg=="],
 
     "raw-body": ["raw-body@3.0.1", "", { "dependencies": { "bytes": "3.1.2", "http-errors": "2.0.0", "iconv-lite": "0.7.0", "unpipe": "1.0.0" } }, "sha512-9G8cA+tuMS75+6G/TzW8OtLzmBDMo8p1JRxN5AZ+LAp8uxGA8V8GZm4GQ4/N5QNQEnLmg6SS7wyuSmbKepiKqA=="],
 
