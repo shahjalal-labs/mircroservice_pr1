@@ -56,4 +56,27 @@ const proxyOptions = {
   proxyReqPathResolver: (req) => {
     return req.originalUrl.replace(/^\/v1/, "/api");
   },
+  proxyErrorHandler: (err, res, next) => {
+    logger.error(`Proxy error: ${err.message}`);
+    res.status(500).json({
+      message: `Internal server error`,
+      error: err.message,
+    });
+  },
 };
+
+app.use(
+  "/v1/auth",
+  proxy(process.env.IDENTITY_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      proxyReqOpts.headers["content-type"] = "application/json";
+      return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(
+        `Response received from Identity service: ${proxyRes.statusCode}`,
+      );
+    },
+  }),
+);
