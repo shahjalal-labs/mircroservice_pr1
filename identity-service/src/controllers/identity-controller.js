@@ -1,8 +1,9 @@
 //
+const { json } = require("express");
 const User = require("../models/User");
 const generateTokens = require("../utils/generateToken");
 const logger = require("../utils/logger");
-const { validateRegistration } = require("../utils/validation");
+const { validateRegistration, validatelogin } = require("../utils/validation");
 
 const registerUser = async (req, res) => {
   logger.info("Registration endpoint hit...");
@@ -54,6 +55,33 @@ const registerUser = async (req, res) => {
       message: "Internal server error",
     });
   }
+};
+
+const loginUser = async (req, res) => {
+  logger.info("Login endpoint hit...");
+  try {
+    const { error } = validatelogin(req.body);
+    if (error) {
+      logger.warn("Validation error", error.details[0].message);
+      return res.status(400).json({
+        success: false,
+        message: error.details[0].message,
+      });
+    }
+    const { email, password } = req.body;
+
+    const user = await User.findOne({ email });
+
+    if (!user) {
+      logger.warn("Invalid user");
+      return res.status(400).json({
+        success: false,
+        message: "Invalid credentials",
+      });
+    }
+
+    const isValidPassword = await user;
+  } catch (error) {}
 };
 
 module.exports = {
