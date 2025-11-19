@@ -80,10 +80,27 @@ const loginUser = async (req, res) => {
       });
     }
 
-    const isValidPassword = await user;
+    const isValidPassword = await user.comparePassword(password);
+
+    if (!isValidPassword) {
+      logger.warn("Invalid password");
+      return res.status(400).json({
+        success: false,
+        message: "Invalid password",
+      });
+    }
+
+    const { accessToken, refreshToken } = await generateTokens(user);
+
+    res.json({
+      accessToken,
+      refreshToken,
+      userId: user._id,
+    });
   } catch (error) {}
 };
 
 module.exports = {
   registerUser,
+  loginUser,
 };
