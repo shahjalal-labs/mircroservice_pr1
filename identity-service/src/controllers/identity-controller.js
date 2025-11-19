@@ -4,6 +4,7 @@ const User = require("../models/User");
 const generateTokens = require("../utils/generateToken");
 const logger = require("../utils/logger");
 const { validateRegistration, validatelogin } = require("../utils/validation");
+const RefreshToken = require("../models/RefreshToken");
 
 const registerUser = async (req, res) => {
   logger.info("Registration endpoint hit...");
@@ -118,6 +119,26 @@ const refreshTokenUser = async (req, res) => {
       return res.status(400).json({
         success: false,
         message: "Refresh token missing",
+      });
+    }
+
+    const storedToken = await RefreshToken.deleteOne({
+      token: refreshToken,
+    });
+
+    if (!storedToken) {
+      logger.warn("Invalid refresh token provided");
+      return res.status(400).json({
+        success: false,
+        message: "Invalid refresh token",
+      });
+    }
+
+    if (!storedToken || storedToken.expiresAt < new Date()) {
+      logger.warn("Invalid or expired refresh token");
+      return res.status(401).json({
+        success: false,
+        message: `Invalid or expired refresh token`,
       });
     }
   } catch (e) {
