@@ -91,3 +91,9 @@
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-17T16:34:21.376Z"}
 {"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-11-17T16:34:33.708Z"}
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-17T16:34:35.086Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-11-19T15:20:36.986Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-19T15:20:38.790Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-11-19T15:21:26.765Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-19T15:21:26.766Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-11-19T15:21:26.770Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-11-19T15:21:26.825Z"}
