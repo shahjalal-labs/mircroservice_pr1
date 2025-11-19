@@ -12,6 +12,7 @@
         "helmet": "^8.1.0",
         "ioredis": "^5.8.2",
         "jsonwebtoken": "^9.0.2",
+        "rate-limit-redis": "^4.2.3",
         "winston": "^3.18.3",
       },
       "devDependencies": {
@@ -243,6 +244,8 @@
     "qs": ["qs@6.14.0", "", { "dependencies": { "side-channel": "^1.1.0" } }, "sha512-YWWTjgABSKcvs/nWBi9PycY/JiPJqOD4JA6o9Sej2AtvSGarXxKC3OQSk4pAarbdQlKAh5D4FCQkJNkW+GAn3w=="],
 
     "range-parser": ["range-parser@1.2.1", "", {}, "sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg=="],
+
+    "rate-limit-redis": ["rate-limit-redis@4.2.3", "", { "peerDependencies": { "express-rate-limit": ">= 6" } }, "sha512-33Ai6fGBGSxctJxNZRyxzUrqMxcCcnj+EXMJ876c5UTth/wgyWCO7VjTfCEq9+Timjt5/uSFR+whc9/Et0hk/A=="],
 
     "raw-body": ["raw-body@2.5.2", "", { "dependencies": { "bytes": "3.1.2", "http-errors": "2.0.0", "iconv-lite": "0.4.24", "unpipe": "1.0.0" } }, "sha512-8zGqypfENjCIqGhgXToC8aB2r7YrBX+AQAfIPs/Mlk+BtPTztOvTS01NRW/3Eh60J+a48lt8qsCzirQ6loCVfA=="],
 

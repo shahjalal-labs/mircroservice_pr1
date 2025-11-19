@@ -5,6 +5,8 @@ const express = require("express");
 
 const helmet = require("helmet");
 
+const proxy = require("express-http-proxy");
+
 const { rateLimit } = require("express-rate-limit");
 
 const cors = require("cors");
@@ -43,3 +45,15 @@ const rateLimitOptions = rateLimit({
 });
 
 app.use(rateLimitOptions);
+
+app.use((req, res) => {
+  logger.info(`Received ${req.method} request to ${req.url}`);
+  logger.info(`Request body, ${req.body}`);
+  next();
+});
+
+const proxyOptions = {
+  proxyReqPathResolver: (req) => {
+    return req.originalUrl.replace(/^\/v1/, "/api");
+  },
+};
