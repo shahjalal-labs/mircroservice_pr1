@@ -14,6 +14,7 @@ const cors = require("cors");
 const { RedisStore } = require("rate-limit-redis");
 const Redis = require("ioredis");
 const logger = require("./utils/logger");
+const errorHandler = require("./middleware/errorHandler");
 
 const app = express();
 
@@ -46,7 +47,7 @@ const rateLimitOptions = rateLimit({
 
 app.use(rateLimitOptions);
 
-app.use((req, res) => {
+app.use((req, res, next) => {
   logger.info(`Received ${req.method} request to ${req.url}`);
   logger.info(`Request body, ${req.body}`);
   next();
@@ -77,6 +78,16 @@ app.use(
       logger.info(
         `Response received from Identity service: ${proxyRes.statusCode}`,
       );
+      return proxyResData;
     },
   }),
 );
+
+app.use(errorHandler);
+
+app.listen(PORT, () => {
+  logger.info(`API Gateway is running on port ${PORT}`);
+  logger.info(
+    `Identity service is running on port ${process.env.IDENTITY_SERVICE_URL}`,
+  );
+});
