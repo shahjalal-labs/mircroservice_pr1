@@ -97,10 +97,40 @@ const loginUser = async (req, res) => {
       refreshToken,
       userId: user._id,
     });
-  } catch (error) {}
+  } catch (e) {
+    logger.error("Login error occured", e);
+    res.status(500).json({
+      success: false,
+      message: "Internal server error",
+    });
+  }
+};
+
+//refresh token
+
+const refreshTokenUser = async (req, res) => {
+  logger.info("Refresh token endpoint hit...");
+
+  try {
+    const { refreshToken } = req.body;
+    if (!refreshToken) {
+      logger.warn("Refresh token missing");
+      return res.status(400).json({
+        success: false,
+        message: "Refresh token missing",
+      });
+    }
+  } catch (e) {
+    logger.error("Refresh token error occured", e);
+    res.status(500).json({
+      success: false,
+      message: "Internal server error",
+    });
+  }
 };
 
 module.exports = {
   registerUser,
   loginUser,
+  refreshTokenUser,
 };
