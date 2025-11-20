@@ -2,6 +2,7 @@ const Post = require("../models/Post");
 const logger = require("../utils/logger");
 const { validateCreatePost } = require("../utils/validation");
 
+//w: (start)╭──────────── createPost ────────────╮
 const createPost = async (req, res) => {
   logger.info("Create post endpoint hit");
 
@@ -39,6 +40,12 @@ const createPost = async (req, res) => {
       message: "Error creating post",
     });
   }
+};
+//w: (end)  ╰──────────── createPost ────────────╯
+
+const getAllPosts = async (req, res) => {
+  try {
+  } catch (e) {}
 };
 
 module.exports = { createPost };
