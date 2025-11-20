@@ -3,3 +3,5 @@
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T15:48:13.553Z"}
 {"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-20T15:52:50.516Z"}
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T15:52:51.377Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-20T15:56:51.478Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T15:56:52.169Z"}

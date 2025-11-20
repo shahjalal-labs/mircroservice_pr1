@@ -94,14 +94,16 @@ app.use(
   proxy(process.env.POST_SERVICE_URL, {
     ...proxyOptions,
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
-      proxyReqOpts.headers["content-type"] = "application/json";
+      proxyReqOpts.headers["Content-Type"] = "application/json";
       proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+
       return proxyReqOpts;
     },
     userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
       logger.info(
         `Response received from Post service: ${proxyRes.statusCode}`,
       );
+
       return proxyResData;
     },
   }),
