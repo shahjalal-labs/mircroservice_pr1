@@ -45,6 +45,24 @@ const createPost = async (req, res) => {
 
 const getAllPosts = async (req, res) => {
   try {
+    const page = Number(req.query.page) || 1;
+    const limit = Number(req.query.limit) || 10;
+    const startIndex = (page - 1) * limit;
+    const cacheKey = `posts:${page}:${limit}`;
+    const cachedPosts = await req.redisClient.get(cacheKey);
+    if (cachedPosts) {
+      return res.json({
+        success: true,
+        message: "Posts fetched successfully",
+        data: JSON.parse(cachedPosts),
+      });
+    }
+
+    const posts = await Post.find({})
+      .sort({
+        createdAt: -1,
+      })
+      .limit(startIndex);
   } catch (e) {}
 };
 

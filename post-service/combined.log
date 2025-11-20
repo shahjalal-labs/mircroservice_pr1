@@ -114,3 +114,17 @@
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T16:52:56.564Z"}
 {"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-20T16:53:30.773Z"}
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T16:53:31.523Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-20T16:53:54.865Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T16:53:55.540Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-20T16:54:24.755Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T16:54:25.423Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-20T16:54:55.358Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T16:54:56.391Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-20T16:55:19.477Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T16:55:20.390Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-20T16:56:00.395Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T16:56:01.229Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-20T16:56:47.126Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T16:56:47.877Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-20T16:57:03.399Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T16:57:04.150Z"}
