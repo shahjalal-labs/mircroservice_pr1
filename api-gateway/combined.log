@@ -27,3 +27,33 @@
 {"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-11-20T15:45:57.346Z"}
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-20T15:45:57.347Z"}
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-20T15:45:57.351Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-11-20T15:48:14.709Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-20T15:48:14.709Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-20T15:48:14.710Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-11-20T15:48:15.966Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-20T15:48:15.966Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-20T15:48:15.967Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-11-20T15:48:18.140Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-20T15:48:18.140Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-20T15:48:18.141Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-11-20T15:48:19.654Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-20T15:48:19.654Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-20T15:48:19.655Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-11-20T15:48:46.766Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-20T15:48:46.766Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"api-gateway","timestamp":"2025-11-20T15:48:47.075Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-11-20T15:49:14.393Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-20T15:49:14.393Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-11-20T15:49:14.611Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-11-20T15:50:12.737Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-20T15:50:12.737Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-11-20T15:50:12.943Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-11-20T15:50:59.526Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-20T15:50:59.526Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"api-gateway","timestamp":"2025-11-20T15:50:59.526Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-11-20T15:51:19.270Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-20T15:51:19.270Z"}
+{"level":"info","message":"Response received from Post service: 404","service":"api-gateway","timestamp":"2025-11-20T15:51:19.275Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-11-20T15:52:58.534Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-20T15:52:58.534Z"}
+{"level":"info","message":"Response received from Post service: 404","service":"api-gateway","timestamp":"2025-11-20T15:52:58.537Z"}
