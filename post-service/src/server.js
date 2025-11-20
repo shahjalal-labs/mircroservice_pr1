@@ -13,6 +13,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3002;
 
+console.log(process.env.MONGODB_URI, "mongodb uri");
 //connect to mongodb
 mongoose
   .connect(process.env.MONGODB_URI)
@@ -46,8 +47,5 @@ app.use(
 app.use(errorHandler);
 
 app.listen(PORT, () => {
-  logger.info(`API Gateway is running on port ${PORT}`);
-  logger.info(
-    `Post service is running on port ${process.env.POST_SERVICE_URL}`,
-  );
+  logger.info(`Post service is running on port ${PORT}`);
 });
