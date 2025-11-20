@@ -66,6 +66,8 @@ const proxyOptions = {
   },
 };
 
+//setting up proxy for our identity service
+
 app.use(
   "/v1/auth",
   proxy(process.env.IDENTITY_SERVICE_URL, {
