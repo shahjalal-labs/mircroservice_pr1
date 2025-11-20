@@ -66,7 +66,7 @@ const proxyOptions = {
   },
 };
 
-//setting up proxy for our identity service
+//p:setting up proxy for our identity service
 
 app.use(
   "/v1/auth",
@@ -91,5 +91,9 @@ app.listen(PORT, () => {
   logger.info(`API Gateway is running on port ${PORT}`);
   logger.info(
     `Identity service is running on port ${process.env.IDENTITY_SERVICE_URL}`,
+  );
+
+  logger.info(
+    `Post service is running on port ${process.env.POST_SERVICE_URL}`,
   );
 });

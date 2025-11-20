@@ -13,7 +13,6 @@ const app = express();
 
 const PORT = process.env.PORT || 3002;
 
-console.log(process.env.MONGODB_URI, "mongodb uri");
 //connect to mongodb
 mongoose
   .connect(process.env.MONGODB_URI)
