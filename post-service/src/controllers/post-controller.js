@@ -24,7 +24,7 @@ const createPost = async (req, res) => {
 
     await newlyCreatedPost.save();
   } catch (e) {
-    logger.error("Error creating post", error);
+    logger.error("Error creating post", e);
     res.status(500).json({
       success: false,
       message: "Error creating post",
