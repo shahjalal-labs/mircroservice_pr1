@@ -62,7 +62,18 @@ const getAllPosts = async (req, res) => {
       .sort({
         createdAt: -1,
       })
-      .limit(startIndex);
+      .skip(startIndex)
+      .limit(limit);
+
+    const totalNoOfPosts = await Post.countDocuments();
+
+     const result={
+      posts,
+      currentpage:page,
+      totalPages:Math.ceil(totalNoOfPosts/limit),
+      totalPosts:totalNoOfPosts
+    }
+    } ;
   } catch (e) {}
 };
 
