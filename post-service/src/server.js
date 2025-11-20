@@ -29,3 +29,14 @@ app.use((req, res, next) => {
   logger.info(`Request body, ${req.body}`);
   next();
 });
+
+//routes => pass redisclient to routes
+
+app.use(
+  "/api/posts",
+  (req, res, next) => {
+    req.redisClient = redisClient;
+    next();
+  },
+  postRoute,
+);
