@@ -141,6 +141,23 @@ const refreshTokenUser = async (req, res) => {
         message: `Invalid or expired refresh token`,
       });
     }
+
+    const user = await User.findById(storedToken.user);
+
+    if (!user) {
+      logger.warn("User not found");
+      return res.status(401).json({
+        success: false,
+        message: `User not found`,
+      });
+    }
+    const { accessToken: newAccessToken, refreshToken: newRefreshToken } =
+      await generateTokens(user);
+
+    res.json({
+      accessToken: newAccessToken,
+      refreshToken: newRefreshToken,
+    });
   } catch (e) {
     logger.error("Refresh token error occured", e);
     res.status(500).json({
