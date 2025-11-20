@@ -6,6 +6,8 @@ const Redis = require("ioredis");
 const cors = require("cors");
 const helmet = require("helmet");
 const logger = require("./utils/logger");
+const postRoutes = require("./routes/post-routes");
+const errorHandler = require("./middleware/errorHandler");
 
 const app = express();
 
@@ -38,5 +40,14 @@ app.use(
     req.redisClient = redisClient;
     next();
   },
-  postRoute,
+  postRoutes,
 );
+
+app.use(errorHandler);
+
+app.listen(PORT, () => {
+  logger.info(`API Gateway is running on port ${PORT}`);
+  logger.info(
+    `Post service is running on port ${process.env.POST_SERVICE_URL}`,
+  );
+});
