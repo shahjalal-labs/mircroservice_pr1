@@ -156,3 +156,18 @@
 {"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-11-20T16:49:29.221Z"}
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-20T16:49:29.221Z"}
 {"level":"info","message":"Response received from Post service: 201","service":"api-gateway","timestamp":"2025-11-20T16:49:29.291Z"}
+{"level":"info","message":"Received GET request to /v1/posts","service":"api-gateway","timestamp":"2025-11-20T17:06:09.560Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-20T17:06:09.560Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"api-gateway","timestamp":"2025-11-20T17:06:09.560Z"}
+{"level":"info","message":"Received GET request to /v1/posts","service":"api-gateway","timestamp":"2025-11-20T17:06:36.936Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-20T17:06:36.937Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-11-20T17:06:36.937Z"}
+{"level":"info","message":"Received GET request to /v1/posts","service":"api-gateway","timestamp":"2025-11-20T17:06:38.880Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-20T17:06:38.880Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-11-20T17:06:38.881Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-11-20T17:06:44.446Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-20T17:06:44.446Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-11-20T17:06:44.678Z"}
+{"level":"info","message":"Received GET request to /v1/posts","service":"api-gateway","timestamp":"2025-11-20T17:06:48.736Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-20T17:06:48.736Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2025-11-20T17:06:48.899Z"}

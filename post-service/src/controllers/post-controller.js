@@ -72,7 +72,13 @@ const getAllPosts = async (req, res) => {
     //p: save posts in redis cache
     await req.redisClient.setex(cacheKey, 300, JSON.stringify(result));
     res.json(result);
-  } catch (e) {}
+  } catch (e) {
+    logger.error("Error fetching posts", e);
+    res.status(500).json({
+      success: false,
+      message: "Error fetching posts",
+    });
+  }
 };
 
-module.exports = { createPost };
+module.exports = { createPost, getAllPosts };

@@ -140,3 +140,9 @@
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T17:03:47.414Z"}
 {"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-20T17:04:03.195Z"}
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T17:04:03.945Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-20T17:04:34.115Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T17:04:34.773Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-20T17:05:09.664Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-20T17:05:10.702Z"}
+{"level":"info","message":"Received GET request to /api/posts","service":"identity-service","timestamp":"2025-11-20T17:06:48.744Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-20T17:06:48.744Z"}
