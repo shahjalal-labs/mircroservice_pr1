@@ -31,3 +31,7 @@ const postSchema = new mongoose.Schema(
 postSchema.index({
   content: "text",
 });
+
+const Post = mongoose.model("Post", postSchema);
+
+module.exports = Post;

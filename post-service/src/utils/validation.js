@@ -1,11 +1,10 @@
 //
 const Joi = require("joi");
 
-const validateRegistration = (data) => {
+const createPost = (data) => {
   const schema = Joi.object({
-    username: Joi.string().min(3).max(50).required(),
-    email: Joi.string().email().required(),
-    password: Joi.string().min(6).required(),
+    content: Joi.string().min(10),
+    mediaIds: Joi.array(Joi.string()),
   });
 
   return schema.validate(data);
@@ -19,4 +18,4 @@ const validatelogin = (data) => {
 
   return schema.validate(data);
 };
-module.exports = { validateRegistration, validatelogin };
+module.exports = { validateRegistration: createPost, validatelogin };
