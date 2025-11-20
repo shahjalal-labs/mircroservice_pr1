@@ -51,11 +51,7 @@ const getAllPosts = async (req, res) => {
     const cacheKey = `posts:${page}:${limit}`;
     const cachedPosts = await req.redisClient.get(cacheKey);
     if (cachedPosts) {
-      return res.json({
-        success: true,
-        message: "Posts fetched successfully",
-        data: JSON.parse(cachedPosts),
-      });
+      return res.json(JSON.parse(cachedPosts));
     }
 
     const posts = await Post.find({})
@@ -67,13 +63,15 @@ const getAllPosts = async (req, res) => {
 
     const totalNoOfPosts = await Post.countDocuments();
 
-     const result={
+    const result = {
       posts,
-      currentpage:page,
-      totalPages:Math.ceil(totalNoOfPosts/limit),
-      totalPosts:totalNoOfPosts
-    }
-    } ;
+      currentpage: page,
+      totalPages: Math.ceil(totalNoOfPosts / limit),
+      totalPosts: totalNoOfPosts,
+    };
+    //p: save posts in redis cache
+    await req.redisClient.setex(cacheKey, 300, JSON.stringify(result));
+    res.json(result);
   } catch (e) {}
 };
 
