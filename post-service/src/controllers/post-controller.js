@@ -15,6 +15,14 @@ const createPost = async (req, res) => {
     }
 
     const { content, mediaIds } = req.body;
+
+    const newlyCreatedPost = new Post({
+      user: req.user.userId,
+      content,
+      mediaIds: mediaIds || [],
+    });
+
+    await newlyCreatedPost.save();
   } catch (e) {
     logger.error("Error creating post", error);
     res.status(500).json({
