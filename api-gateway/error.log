@@ -8,3 +8,9 @@
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-20T16:01:23.420Z"}
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-20T16:01:24.720Z"}
 {"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-11-20T16:21:43.520Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-11-22T13:26:35.971Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-11-22T13:28:50.312Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-11-22T13:28:50.797Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-11-22T13:28:51.383Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-11-22T13:28:51.889Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-11-22T13:28:52.485Z"}
