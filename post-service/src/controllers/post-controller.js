@@ -51,10 +51,7 @@ const createPost = async (req, res) => {
     });
   } catch (e) {
     logger.error("Error creating post", e);
-    res.status(500).json({
-      success: false,
-      message: "Error creating post",
-    });
+    next(e);
   }
 };
 //w: (end)  ╰──────────── createPost ────────────╯
@@ -91,10 +88,7 @@ const getAllPosts = async (req, res) => {
     res.json(result);
   } catch (e) {
     logger.error("Error fetching posts", e);
-    res.status(500).json({
-      success: false,
-      message: "Error fetching posts",
-    });
+    next(e);
   }
 };
 //w: (end)  ╰──────────── getAllPosts ────────────╯
@@ -123,10 +117,7 @@ const getPost = async (req, res) => {
     res.json(post);
   } catch (error) {
     logger.error("Error fetching post", error);
-    res.status(500).json({
-      success: false,
-      message: "Error fetching post by ID",
-    });
+    next(error);
   }
 };
 
