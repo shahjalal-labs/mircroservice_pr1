@@ -4,6 +4,7 @@ const {
   createPost,
   getAllPosts,
   getPost,
+  deletePost,
 } = require("../controllers/post-controller");
 
 const router = express.Router();
@@ -16,5 +17,7 @@ router.post("/create-post", createPost);
 router.get("/", getAllPosts);
 
 router.get("/:postId", getPost);
+
+router.delete("/:id", deletePost);
 
 module.exports = router;

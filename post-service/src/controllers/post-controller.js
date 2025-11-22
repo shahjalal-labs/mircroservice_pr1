@@ -132,4 +132,33 @@ const getPost = async (req, res) => {
 
 //w: (end)  ╰──────────── getPost ────────────╯
 
-module.exports = { createPost, getAllPosts, getPost };
+//w: (start)╭──────────── deletePost ────────────╮
+const deletePost = async (req, res) => {
+  try {
+    const postId = req.params.id;
+
+    const post = await Post.deleteOne({
+      _id: postId,
+      user: req.user.userId,
+    });
+    if (!post) {
+      return res.status(404).json({
+        message: "Post not found",
+        success: false,
+      });
+    }
+    await invalidatePostKey(req, postId);
+    res.json({
+      message: "Post deleted successfully",
+    });
+  } catch (error) {
+    logger.error("Error deleting post", error);
+    res.status(500).json({
+      success: false,
+      message: "Error deleting post",
+    });
+  }
+};
+//w: (end)  ╰──────────── deletePost ────────────╯
+
+module.exports = { createPost, getAllPosts, getPost, deletePost };
