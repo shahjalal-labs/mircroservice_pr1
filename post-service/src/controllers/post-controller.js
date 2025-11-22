@@ -87,7 +87,21 @@ const getAllPosts = async (req, res) => {
 const getPost = async (req, res) => {
   try {
     const postId = req.params.postId;
-  } catch (error) {}
+    const post = await Post.findById(postId);
+    if (!post) {
+      return res.status(404).json({
+        success: false,
+        message: "Post not found",
+      });
+    }
+    res.json(post);
+  } catch (error) {
+    logger.error("Error fetching post", error);
+    res.status(500).json({
+      success: false,
+      message: "Error fetching post by ID",
+    });
+  }
 };
 //w: (end)  ╰──────────── getPost ────────────╯
 
