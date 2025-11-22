@@ -133,7 +133,7 @@ const getPost = async (req, res) => {
 //w: (end)  ╰──────────── getPost ────────────╯
 
 //w: (start)╭──────────── deletePost ────────────╮
-const deletePost = async (req, res) => {
+const deletePost = async (req, res, next) => {
   try {
     const postId = req.params.id;
 
@@ -153,10 +153,7 @@ const deletePost = async (req, res) => {
     });
   } catch (error) {
     logger.error("Error deleting post", error);
-    res.status(500).json({
-      success: false,
-      message: "Error deleting post",
-    });
+    next(error);
   }
 };
 //w: (end)  ╰──────────── deletePost ────────────╯

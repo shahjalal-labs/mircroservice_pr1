@@ -998,3 +998,27 @@
 {"level":"info","message":"Received GET request to /v1/posts","service":"api-gateway","timestamp":"2025-11-22T16:09:22.344Z"}
 {"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-22T16:09:22.344Z"}
 {"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2025-11-22T16:09:22.346Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/691f469960d7e52c7b4f4cc7","service":"api-gateway","timestamp":"2025-11-22T16:22:37.822Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-22T16:22:37.823Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-11-22T16:22:37.823Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/6921dfef8b9e3f76bffd7656","service":"api-gateway","timestamp":"2025-11-22T16:22:48.417Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-22T16:22:48.417Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2025-11-22T16:22:48.466Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/6921dfef8b9e3f76bffd7656","service":"api-gateway","timestamp":"2025-11-22T16:22:49.758Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-22T16:22:49.758Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2025-11-22T16:22:49.808Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/6921dfef8b9e3f76bffd7656","service":"api-gateway","timestamp":"2025-11-22T16:22:50.928Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-22T16:22:50.929Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2025-11-22T16:22:50.984Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/6921dfef8b9e3f76bffd765a","service":"api-gateway","timestamp":"2025-11-22T16:22:55.004Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-22T16:22:55.004Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2025-11-22T16:22:55.051Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/6921dfef8b9e3f76bffd765,","service":"api-gateway","timestamp":"2025-11-22T16:22:58.051Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-22T16:22:58.051Z"}
+{"level":"info","message":"Response received from Post service: 500","service":"api-gateway","timestamp":"2025-11-22T16:22:58.054Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/6921dfef8b9e3f76bffd765,","service":"api-gateway","timestamp":"2025-11-22T16:23:57.865Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-22T16:23:57.865Z"}
+{"level":"info","message":"Response received from Post service: 500","service":"api-gateway","timestamp":"2025-11-22T16:23:57.878Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/6921dfef8b9e3f76bffd765,","service":"api-gateway","timestamp":"2025-11-22T16:24:30.218Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-22T16:24:30.218Z"}
+{"level":"info","message":"Response received from Post service: 500","service":"api-gateway","timestamp":"2025-11-22T16:24:30.231Z"}
