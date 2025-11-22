@@ -5,6 +5,17 @@ const { validateCreatePost } = require("../utils/validation");
 
 const { stringify, parse } = JSON;
 
+const invalidatePostKey = async (req, input) => {
+  const cachedKey = "post:" + input;
+  await req.redisClient.del(cachedKey);
+
+  const keys = await req.redisClient.keys("posts:*");
+
+  if (keys.length) {
+    await req.redisClient.del(keys);
+  }
+};
+
 //w: (start)╭──────────── createPost ────────────╮
 const createPost = async (req, res) => {
   logger.info("Create post endpoint hit");
@@ -30,6 +41,8 @@ const createPost = async (req, res) => {
     await newlyCreatedPost.save();
 
     logger.info("Post created successfully", newlyCreatedPost);
+
+    await invalidatePostKey(req, newlyCreatedPost._id.toString());
 
     res.status(201).json({
       success: true,
@@ -94,7 +107,7 @@ const getPost = async (req, res) => {
     const cacheKey = `post:${postId}`;
     const cachedPost = await req.redisClient.get(cacheKey);
     if (cachedPost) {
-      return res.json(JSON.parse(cachedPost));
+      return res.json(parse(cachedPost));
     }
 
     const post = await Post.findById(postId);
@@ -105,7 +118,7 @@ const getPost = async (req, res) => {
       });
     }
 
-    // await req.redisClient.setex(cacheKey, 3600, stringify(post));
+    await req.redisClient.setex(cacheKey, 3600, stringify(post));
 
     res.json(post);
   } catch (error) {
