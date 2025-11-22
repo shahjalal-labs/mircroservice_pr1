@@ -105,7 +105,7 @@ const getPost = async (req, res) => {
       });
     }
 
-    await req.redisClient.setex(cachedPost, 3600, stringify(post));
+    // await req.redisClient.setex(cacheKey, 3600, stringify(post));
 
     res.json(post);
   } catch (error) {
