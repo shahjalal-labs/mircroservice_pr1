@@ -436,3 +436,21 @@
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:24:59.153Z"}
 {"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:24:59.557Z"}
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:24:59.557Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:31:37.976Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:31:37.976Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:31:39.251Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:31:39.251Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:31:40.579Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:31:40.580Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:31:41.885Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:31:41.885Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:31:42.671Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:31:42.671Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:31:43.595Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:31:43.595Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:31:44.008Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:31:44.008Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:31:44.431Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:31:44.431Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:31:47.541Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:31:47.541Z"}
