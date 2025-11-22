@@ -43,6 +43,7 @@ const createPost = async (req, res) => {
 };
 //w: (end)  ╰──────────── createPost ────────────╯
 
+//w: (start)╭──────────── getAllPosts ────────────╮
 const getAllPosts = async (req, res) => {
   try {
     const page = Number(req.query.page) || 1;
@@ -80,5 +81,14 @@ const getAllPosts = async (req, res) => {
     });
   }
 };
+//w: (end)  ╰──────────── getAllPosts ────────────╯
 
-module.exports = { createPost, getAllPosts };
+//w: (start)╭──────────── getPost ────────────╮
+const getPost = async (req, res) => {
+  try {
+    const postId = req.params.postId;
+  } catch (error) {}
+};
+//w: (end)  ╰──────────── getPost ────────────╯
+
+module.exports = { createPost, getAllPosts, getPost };
