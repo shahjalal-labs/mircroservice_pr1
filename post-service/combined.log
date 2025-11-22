@@ -394,3 +394,45 @@
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T14:19:45.470Z"}
 {"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T14:20:01.541Z"}
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T14:20:02.316Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T14:20:52.799Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T14:20:53.719Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T14:21:00.589Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T14:21:01.428Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T14:21:22.956Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T14:21:23.737Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T14:21:28.687Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T14:21:29.480Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T14:21:44.972Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T14:21:45.726Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T14:21:55.683Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T14:21:56.465Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T14:22:02.105Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T14:22:02.898Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T14:22:04.417Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T14:22:06.332Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T14:22:06.590Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T14:22:09.514Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T14:22:12.121Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T14:22:12.982Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T14:22:24.343Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T14:22:25.115Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T14:22:32.209Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T14:22:33.027Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T14:22:50.867Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T14:22:51.799Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:23:02.363Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:23:02.363Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:23:06.630Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:23:06.631Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:23:11.098Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:23:11.098Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:24:53.867Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:24:53.868Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:24:56.051Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:24:56.051Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:24:57.011Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:24:57.011Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:24:59.153Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:24:59.153Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f469960d7e52c7b4f4cc7","service":"identity-service","timestamp":"2025-11-22T14:24:59.557Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T14:24:59.557Z"}

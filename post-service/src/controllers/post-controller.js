@@ -1,6 +1,9 @@
 const Post = require("../models/Post");
+const { log } = require("../utils/consoleLog");
 const logger = require("../utils/logger");
 const { validateCreatePost } = require("../utils/validation");
+
+const { stringify, parse } = JSON;
 
 //w: (start)╭──────────── createPost ────────────╮
 const createPost = async (req, res) => {
@@ -101,6 +104,9 @@ const getPost = async (req, res) => {
         message: "Post not found",
       });
     }
+
+    await req.redisClient.setex(cachedPost, 3600, stringify(post));
+
     res.json(post);
   } catch (error) {
     logger.error("Error fetching post", error);
@@ -110,6 +116,7 @@ const getPost = async (req, res) => {
     });
   }
 };
+
 //w: (end)  ╰──────────── getPost ────────────╯
 
 module.exports = { createPost, getAllPosts, getPost };
