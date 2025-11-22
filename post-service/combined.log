@@ -827,3 +827,5 @@
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T16:26:19.497Z"}
 {"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T16:26:30.195Z"}
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T16:26:30.915Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T16:27:09.607Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T16:27:10.512Z"}
