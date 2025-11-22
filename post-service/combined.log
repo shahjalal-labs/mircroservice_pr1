@@ -336,3 +336,11 @@
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T13:29:49.060Z"}
 {"level":"info","message":"Received GET request to /api/posts","service":"identity-service","timestamp":"2025-11-22T13:29:52.825Z"}
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T13:29:52.825Z"}
+{"level":"info","message":"Received GET request to /api/posts","service":"identity-service","timestamp":"2025-11-22T13:49:02.510Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T13:49:02.510Z"}
+{"level":"info","message":"Received GET request to /api/posts","service":"identity-service","timestamp":"2025-11-22T13:49:08.361Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T13:49:08.361Z"}
+{"level":"info","message":"Received GET request to /api/posts","service":"identity-service","timestamp":"2025-11-22T13:49:11.067Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T13:49:11.067Z"}
+{"level":"info","message":"Received GET request to /api/posts","service":"identity-service","timestamp":"2025-11-22T13:49:12.049Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-22T13:49:12.049Z"}
