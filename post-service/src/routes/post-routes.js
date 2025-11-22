@@ -15,12 +15,6 @@ router.use(authenticateRequest);
 router.post("/create-post", createPost);
 router.get("/", getAllPosts);
 
-router.get(
-  "/:postId",
-  () => {
-    console.log(`working`);
-  },
-  getPost,
-);
+router.get("/:postId", getPost);
 
 module.exports = router;

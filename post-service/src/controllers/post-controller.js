@@ -87,6 +87,13 @@ const getAllPosts = async (req, res) => {
 const getPost = async (req, res) => {
   try {
     const postId = req.params.postId;
+
+    const cacheKey = `post:${postId}`;
+    const cachedPost = await req.redisClient.get(cacheKey);
+    if (cachedPost) {
+      return res.json(JSON.parse(cachedPost));
+    }
+
     const post = await Post.findById(postId);
     if (!post) {
       return res.status(404).json({

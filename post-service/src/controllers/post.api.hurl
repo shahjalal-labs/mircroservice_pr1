@@ -1,2 +1,5 @@
-GET http://localhost:3000/posts
-GET  http://localhost:3000/posts/5f8d9f5a2d4d8c4c0f2f
+GET {{port3000}}/posts
+Authorization: Bearer {{qToken}}
+
+GET  {{port3000}}/posts/691f469960d7e52c7b4f4cc7
+Authorization: Bearer {{qToken}}
