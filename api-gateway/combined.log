@@ -1247,3 +1247,10 @@
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-23T16:06:50.493Z"}
 {"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:52.060Z"}
 {"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:52.060Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-11-23T16:07:10.449Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:07:12.409Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:07:12.409Z"}
+{"level":"info","message":"Response received from media service: 400","service":"api-gateway","timestamp":"2025-11-23T16:07:12.417Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:08:20.563Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:08:20.563Z"}
+{"level":"info","message":"Response received from media service: 400","service":"api-gateway","timestamp":"2025-11-23T16:08:20.567Z"}
