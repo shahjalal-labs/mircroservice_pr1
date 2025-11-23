@@ -95,3 +95,7 @@
 {"level":"info","message":"Request body, [object Object]","service":"media-service","timestamp":"2025-11-23T16:08:20.565Z"}
 {"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-11-23T16:08:20.566Z"}
 {"level":"error","message":"No file found. Please add a file and try again!","service":"media-service","timestamp":"2025-11-23T16:08:20.566Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-11-23T16:11:11.685Z"}
+{"level":"info","message":"Request body, [object Object]","service":"media-service","timestamp":"2025-11-23T16:11:11.685Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-11-23T16:11:11.686Z"}
+{"level":"error","message":"No file found. Please add a file and try again!","service":"media-service","timestamp":"2025-11-23T16:11:11.686Z"}
