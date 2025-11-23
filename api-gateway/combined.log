@@ -1260,3 +1260,9 @@
 {"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:16:23.698Z"}
 {"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:16:23.698Z"}
 {"level":"info","message":"Response received from media service: 201","service":"api-gateway","timestamp":"2025-11-23T16:16:26.575Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-11-23T16:17:25.279Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-23T16:17:25.279Z"}
+{"level":"info","message":"Response received from Post service: 400","service":"api-gateway","timestamp":"2025-11-23T16:17:25.289Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-11-23T16:17:50.799Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-23T16:17:50.800Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"api-gateway","timestamp":"2025-11-23T16:17:51.248Z"}
