@@ -1,4 +1,5 @@
 //
+const Media = require("../models/media");
 const { uploadMediaToCloudinary } = require("../utils/cloudinary");
 const logger = require("../utils/logger");
 
@@ -22,7 +23,13 @@ const uploadMedia = async (req, res, next) => {
     `Cloudinary upload successfully. Public Id: - ${cloudinaryUploadResult.public_id}`,
   );
   try {
-    const newlyCreatedMedia = new Media();
+    const newlyCreatedMedia = new Media({
+      publicId: cloudinaryUploadResult.public_id,
+      originalName: originalname,
+      mimeType: mimetype,
+      url: cloudinaryUploadResult.secure_url,
+      userId,
+    });
   } catch (error) {
     next(error);
   }
