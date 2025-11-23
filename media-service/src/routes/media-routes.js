@@ -40,8 +40,8 @@ router.post(
           message: "No file found!",
         });
       }
+      next();
     });
-    next();
   },
   uploadMedia,
 );
