@@ -21,8 +21,8 @@ const uploadMedia = async (req, res, next) => {
   logger.info(
     `Cloudinary upload successfully. Public Id: - ${cloudinaryUploadResult.public_id}`,
   );
-
   try {
+    const newlyCreatedMedia = new Media();
   } catch (error) {
     next(error);
   }
