@@ -2,3 +2,9 @@
 {"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-23T15:04:19.588Z"}
 {"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-23T15:04:40.006Z"}
 {"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-23T15:04:41.260Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-23T15:09:26.085Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-23T15:09:26.997Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-23T15:13:42.435Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-23T15:13:43.249Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-23T15:32:04.197Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-23T15:32:05.544Z"}

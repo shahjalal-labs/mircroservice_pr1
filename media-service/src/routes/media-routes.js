@@ -3,13 +3,12 @@ const router = express.Router();
 
 // middleware -> this will tell if the user is an auth user or not
 
-router.use(authenticateRequest);
-
 const logger = require("../utils/logger");
 const multer = require("multer");
 const { authenticateRequest } = require("../middleware/authMiddleware");
 const { uploadMedia } = require("../controllers/media-controller");
 
+router.use(authenticateRequest);
 // configure multer for file upload
 
 const upload = multer({

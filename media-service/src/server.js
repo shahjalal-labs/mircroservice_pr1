@@ -8,6 +8,8 @@ const helmet = require("helmet");
 const logger = require("./utils/logger");
 const errorHandler = require("./middleware/errorHandler");
 
+const mediaRoutes = require("./routes/media-routes");
+
 const app = express();
 
 const PORT = process.env.PORT || 3003;
@@ -18,7 +20,6 @@ mongoose
   .then(() => logger.info("Connected to mongodb"))
   .catch((e) => logger.error("Mongo connection error", e));
 
-const redisClient = new Redis(process.env.REDIS_URL);
 
 //middleware
 app.use(helmet());
@@ -32,6 +33,8 @@ app.use((req, res, next) => {
 });
 
 //routes => pass redisclient to routes
+
+app.use("/api/media", mediaRoutes);
 
 app.use(errorHandler);
 

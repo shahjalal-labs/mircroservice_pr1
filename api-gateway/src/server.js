@@ -109,6 +109,18 @@ app.use(
   }),
 );
 
+// setting up proxy for our media service
+
+app.use(
+  "/v1/media",
+  validateToken,
+  proxy(process.env.MEDIA_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: () => {},
+    userResDecorator: () => {},
+  }),
+);
+
 app.use(errorHandler);
 
 app.listen(PORT, () => {
