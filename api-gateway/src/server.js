@@ -116,7 +116,13 @@ app.use(
   validateToken,
   proxy(process.env.MEDIA_SERVICE_URL, {
     ...proxyOptions,
-    proxyReqOptDecorator: () => {},
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+      if (!srcReq.headers["content-type"].startsWith("multipart/form-data")) {
+        proxyReqOpts.headers["content-type"] = "application/json";
+      }
+      return proxyReqOpts;
+    },
     userResDecorator: () => {},
   }),
 );
