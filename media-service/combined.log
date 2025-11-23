@@ -1,0 +1,4 @@
+{"level":"info","message":"Post service is running on port 3003","service":"media-service","timestamp":"2025-11-23T15:04:18.180Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-23T15:04:19.588Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-23T15:04:40.006Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-23T15:04:41.260Z"}

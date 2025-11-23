@@ -47,6 +47,6 @@ router.post(
   uploadMedia,
 );
 
-router.post("/create-post");
+router.get("/get", authenticateRequest);
 
 module.exports = router;

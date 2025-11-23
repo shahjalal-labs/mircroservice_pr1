@@ -6,12 +6,11 @@ const Redis = require("ioredis");
 const cors = require("cors");
 const helmet = require("helmet");
 const logger = require("./utils/logger");
-const postRoutes = require("./routes/post-routes");
 const errorHandler = require("./middleware/errorHandler");
 
 const app = express();
 
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3003;
 
 //connect to mongodb
 mongoose
@@ -34,17 +33,8 @@ app.use((req, res, next) => {
 
 //routes => pass redisclient to routes
 
-app.use(
-  "/api/posts",
-  (req, res, next) => {
-    req.redisClient = redisClient;
-    next();
-  },
-  postRoutes,
-);
-
 app.use(errorHandler);
 
 app.listen(PORT, () => {
-  logger.info(`Post service is running on port ${PORT}`);
+  logger.info(`Media service is running on port ${PORT}`);
 });
