@@ -829,3 +829,23 @@
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T16:26:30.915Z"}
 {"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-22T16:27:09.607Z"}
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-22T16:27:10.512Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-23T12:47:20.966Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-23T12:47:22.229Z"}
+{"level":"info","message":"Received GET request to /api/posts","service":"identity-service","timestamp":"2025-11-23T12:59:24.793Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-23T12:59:24.794Z"}
+{"level":"info","message":"Received GET request to /api/posts/6921dfef8b9e3f76bffd7656","service":"identity-service","timestamp":"2025-11-23T12:59:31.431Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-23T12:59:31.432Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f3f9fc020f89dbd590f66","service":"identity-service","timestamp":"2025-11-23T12:59:49.322Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-23T12:59:49.322Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f3f9fc020f89dbd590f66","service":"identity-service","timestamp":"2025-11-23T12:59:51.183Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-23T12:59:51.184Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f3f9fc020f89dbd590f66","service":"identity-service","timestamp":"2025-11-23T12:59:52.622Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-23T12:59:52.622Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f3f9fc020f89dbd590f66","service":"identity-service","timestamp":"2025-11-23T12:59:53.731Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-23T12:59:53.732Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f3f9fc020f89dbd590f66","service":"identity-service","timestamp":"2025-11-23T12:59:54.530Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-23T12:59:54.530Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f3f9fc020f89dbd590f66","service":"identity-service","timestamp":"2025-11-23T12:59:55.494Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-23T12:59:55.494Z"}
+{"level":"info","message":"Received GET request to /api/posts/691f3f9fc020f89dbd590f66","service":"identity-service","timestamp":"2025-11-23T12:59:56.304Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-23T12:59:56.304Z"}
