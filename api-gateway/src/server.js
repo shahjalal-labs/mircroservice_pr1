@@ -123,7 +123,13 @@ app.use(
       }
       return proxyReqOpts;
     },
-    userResDecorator: () => {},
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(
+        `Response received from media service: ${proxyRes.statusCode}`,
+      );
+      return proxyResData;
+    },
+    parseReqBody: false,
   }),
 );
 
