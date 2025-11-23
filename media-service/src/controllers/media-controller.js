@@ -3,6 +3,7 @@ const Media = require("../models/media");
 const { uploadMediaToCloudinary } = require("../utils/cloudinary");
 const logger = require("../utils/logger");
 
+//w: (start)╭──────────── uploadMedia ────────────╮
 const uploadMedia = async (req, res, next) => {
   logger.info("Starting media upload");
   if (!req.file) {
@@ -30,9 +31,18 @@ const uploadMedia = async (req, res, next) => {
       url: cloudinaryUploadResult.secure_url,
       userId,
     });
+    await newlyCreatedMedia.save();
+    res.status(201).json({
+      success: true,
+      mediaId: newlyCreatedMedia._id,
+      url: newlyCreatedMedia.url,
+      message: "Media upload is successfully",
+    });
   } catch (error) {
+    logger.error("Error creating media", error);
     next(error);
   }
 };
+//w: (end)  ╰──────────── uploadMedia ────────────╯
 
 module.exports = { uploadMedia };
