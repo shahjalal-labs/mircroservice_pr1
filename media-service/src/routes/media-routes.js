@@ -8,7 +8,6 @@ const multer = require("multer");
 const { authenticateRequest } = require("../middleware/authMiddleware");
 const { uploadMedia } = require("../controllers/media-controller");
 
-router.use(authenticateRequest);
 // configure multer for file upload
 
 const upload = multer({

@@ -1194,3 +1194,56 @@
 {"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-11-23T15:59:40.623Z"}
 {"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-11-23T15:59:40.623Z"}
 {"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-11-23T15:59:40.623Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:00:03.702Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:00:03.702Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-11-23T16:04:55.526Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:05:53.768Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:05:53.769Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-11-23T16:06:14.646Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:18.942Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:18.942Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-23T16:06:18.944Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:20.428Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:20.428Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-23T16:06:20.430Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:21.528Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:21.528Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-23T16:06:21.530Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:22.059Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:22.059Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-23T16:06:22.061Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:22.527Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:22.527Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-23T16:06:22.529Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:25.173Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:25.173Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-23T16:06:25.174Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:30.219Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:30.219Z"}
+{"level":"info","message":"Response received from media service: 400","service":"api-gateway","timestamp":"2025-11-23T16:06:30.227Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:32.336Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:32.336Z"}
+{"level":"info","message":"Response received from media service: 400","service":"api-gateway","timestamp":"2025-11-23T16:06:32.339Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:33.468Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:33.468Z"}
+{"level":"info","message":"Response received from media service: 400","service":"api-gateway","timestamp":"2025-11-23T16:06:33.472Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:34.306Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:34.306Z"}
+{"level":"info","message":"Response received from media service: 400","service":"api-gateway","timestamp":"2025-11-23T16:06:34.309Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:34.833Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:34.833Z"}
+{"level":"info","message":"Response received from media service: 400","service":"api-gateway","timestamp":"2025-11-23T16:06:34.836Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:35.303Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:35.303Z"}
+{"level":"info","message":"Response received from media service: 400","service":"api-gateway","timestamp":"2025-11-23T16:06:35.306Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:37.014Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:37.014Z"}
+{"level":"info","message":"Response received from media service: 400","service":"api-gateway","timestamp":"2025-11-23T16:06:37.016Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:39.596Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:39.596Z"}
+{"level":"info","message":"Response received from media service: 400","service":"api-gateway","timestamp":"2025-11-23T16:06:39.599Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:50.492Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:50.492Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-23T16:06:50.493Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-23T16:06:52.060Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-23T16:06:52.060Z"}
