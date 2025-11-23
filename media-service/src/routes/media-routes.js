@@ -20,6 +20,9 @@ const upload = multer({
 
 router.post(
   "/upload",
+  () => {
+    logger.info("Inside upload route");
+  },
   authenticateRequest,
   (req, res, next) => {
     upload(req, res, function (err) {
