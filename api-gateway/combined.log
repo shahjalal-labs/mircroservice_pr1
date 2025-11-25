@@ -1266,3 +1266,36 @@
 {"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-11-23T16:17:50.799Z"}
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-23T16:17:50.800Z"}
 {"level":"info","message":"Response received from Post service: 201","service":"api-gateway","timestamp":"2025-11-23T16:17:51.248Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-11-25T17:02:49.825Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-11-25T17:02:49.826Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-11-25T17:02:49.826Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-11-25T17:02:49.827Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-11-25T17:03:11.879Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-11-25T17:03:11.880Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-11-25T17:03:11.880Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-11-25T17:03:11.880Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-25T17:03:52.394Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-25T17:03:52.394Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-11-25T17:03:52.396Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-11-25T17:03:58.743Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-25T17:03:58.743Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-11-25T17:03:58.958Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-25T17:04:03.404Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-25T17:04:03.404Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-11-25T17:04:03.406Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-25T17:04:23.386Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-25T17:04:23.386Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-25T17:04:23.388Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-25T17:04:43.085Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-25T17:04:43.085Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-25T17:04:43.086Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-11-25T17:04:59.803Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-11-25T17:04:59.804Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-11-25T17:04:59.804Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-11-25T17:04:59.804Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-25T17:05:07.045Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-25T17:05:07.045Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-25T17:05:07.051Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-25T17:07:16.161Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-25T17:07:16.161Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-25T17:07:16.164Z"}
