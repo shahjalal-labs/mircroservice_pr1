@@ -1447,3 +1447,6 @@
 {"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-26T15:19:21.141Z"}
 {"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:19:21.141Z"}
 {"level":"info","message":"Response received from media service: 201","service":"api-gateway","timestamp":"2025-11-26T15:19:24.448Z"}
+{"level":"info","message":"Received GET request to /v1/posts","service":"api-gateway","timestamp":"2025-11-26T15:40:14.557Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:40:14.557Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2025-11-26T15:40:14.688Z"}
