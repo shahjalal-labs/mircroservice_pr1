@@ -1471,3 +1471,19 @@
 {"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-11-26T16:57:22.871Z"}
 {"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T16:57:22.871Z"}
 {"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-11-26T16:57:22.871Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-11-26T16:57:50.690Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-11-26T16:57:50.691Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-11-26T16:57:50.691Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-11-26T16:57:50.691Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-11-26T16:58:05.381Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T16:58:05.381Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-11-26T16:58:05.384Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-11-26T16:58:27.871Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T16:58:27.872Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-11-26T16:59:18.695Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-11-26T16:59:19.919Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T16:59:19.919Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-11-26T16:59:38.542Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-11-26T16:59:41.191Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T16:59:41.191Z"}
+{"level":"info","message":"Response received from media service: 200","service":"api-gateway","timestamp":"2025-11-26T16:59:41.246Z"}

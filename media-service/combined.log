@@ -171,3 +171,13 @@
 {"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T16:55:27.222Z"}
 {"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-26T16:55:41.142Z"}
 {"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T16:55:41.768Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-26T16:58:02.683Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T16:58:03.349Z"}
+{"level":"info","message":"Received GET request to /api/media/get","service":"media-service","timestamp":"2025-11-26T16:58:27.877Z"}
+{"level":"info","message":"Request body, [object Object]","service":"media-service","timestamp":"2025-11-26T16:58:27.877Z"}
+{"level":"info","message":"Received GET request to /api/media/get","service":"media-service","timestamp":"2025-11-26T16:59:19.921Z"}
+{"level":"info","message":"Request body, [object Object]","service":"media-service","timestamp":"2025-11-26T16:59:19.921Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-26T16:59:38.769Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T16:59:39.526Z"}
+{"level":"info","message":"Received GET request to /api/media/get","service":"media-service","timestamp":"2025-11-26T16:59:41.196Z"}
+{"level":"info","message":"Request body, [object Object]","service":"media-service","timestamp":"2025-11-26T16:59:41.196Z"}
