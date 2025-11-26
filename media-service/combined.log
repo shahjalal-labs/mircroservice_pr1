@@ -125,3 +125,7 @@
 {"level":"info","message":"File details: name=avater.jpg, type=image/jpeg","service":"media-service","timestamp":"2025-11-26T15:19:21.150Z"}
 {"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-11-26T15:19:21.150Z"}
 {"level":"info","message":"Cloudinary upload successfully. Public Id: - yeiw5pr48gdaugmrpmrd","service":"media-service","timestamp":"2025-11-26T15:19:24.367Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-26T16:44:24.670Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T16:44:25.435Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-26T16:44:26.729Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T16:44:27.409Z"}

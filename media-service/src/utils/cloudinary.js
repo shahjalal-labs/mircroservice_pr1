@@ -27,4 +27,9 @@ const uploadMediaToCloudinary = (file) => {
   });
 };
 
-module.exports = { uploadMediaToCloudinary };
+const deleteMediaFromClouInary = async (publicId) => {
+  try {
+  } catch (error) {}
+};
+
+module.exports = { uploadMediaToCloudinary, deleteMediaFromClouInary };
