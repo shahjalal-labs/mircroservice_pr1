@@ -1408,3 +1408,21 @@
 {"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-26T15:00:12.575Z"}
 {"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:00:12.575Z"}
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T15:00:12.576Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-26T15:14:09.646Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:14:09.646Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T15:14:09.648Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-26T15:14:10.449Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:14:10.450Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T15:14:10.451Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-26T15:14:11.191Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:14:11.191Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T15:14:11.194Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-26T15:14:11.728Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:14:11.728Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T15:14:11.730Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-26T15:14:45.979Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:14:45.979Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T15:14:45.980Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-26T15:14:59.428Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:14:59.428Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T15:14:59.429Z"}
