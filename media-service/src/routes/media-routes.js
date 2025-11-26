@@ -6,7 +6,10 @@ const router = express.Router();
 const logger = require("../utils/logger");
 const multer = require("multer");
 const { authenticateRequest } = require("../middleware/authMiddleware");
-const { uploadMedia } = require("../controllers/media-controller");
+const {
+  uploadMedia,
+  getAllMedias,
+} = require("../controllers/media-controller");
 
 // configure multer for file upload
 
@@ -48,6 +51,6 @@ router.post(
 );
 //w: (end)  ╰──────────── uploadMedia ────────────╯
 
-router.get("/get", authenticateRequest);
+router.get("/get", authenticateRequest, getAllMedias);
 
 module.exports = router;
