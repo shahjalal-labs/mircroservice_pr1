@@ -140,6 +140,13 @@ const deletePost = async (req, res, next) => {
         success: false,
       });
     }
+
+
+    // publish post delete method ->
+
+    // await publi
+
+
     await invalidatePostKey(req, postId);
     res.json({
       message: "Post deleted successfully",

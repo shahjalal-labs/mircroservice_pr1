@@ -9,6 +9,7 @@ let channel = null;
 // exchange name will unique
 const EXCHANGE_NAME = "facebook_events";
 
+//w: (start)╭──────────── connectToRabbitMQ ────────────╮
 async function connectToRabbitMQ() {
   try {
     connection = await amqp.connect(process.env.RABBITMQ_URL);
@@ -22,7 +23,11 @@ async function connectToRabbitMQ() {
     logger.error("Error connecting to rabbit mq", error);
   }
 }
+//w: (end)  ╰──────────── connectToRabbitMQ ────────────╯
+
+async function publishEvent() {}
 
 module.exports = {
   connectToRabbitMQ,
+  publishEvent,
 };
