@@ -25,7 +25,16 @@ async function connectToRabbitMQ() {
 }
 //w: (end)  ╰──────────── connectToRabbitMQ ────────────╯
 
-async function publishEvent() {}
+async function publishEvent(routingKey, message) {
+  if (!channel) {
+    await connectToRabbitMQ();
+  }
+  channel.publish(
+    EXCHANGE_NAME,
+    routingKey,
+    Buffer.from(JSON.stringify(message)),
+  );
+}
 
 module.exports = {
   connectToRabbitMQ,
