@@ -14,7 +14,19 @@ async function connectToRabbitMQ() {
     await channel.assertExchange(EXCHANGE_NAME, "topic", {
       durable: false,
     });
+    logger.info("connected to rabbit mq");
   } catch (error) {
     logger.error("Error connecting to rabbit mq");
   }
 }
+
+async function publishEvent(routingKey, message) {
+  if (!channel) {
+    await connectToRabbitMQ();
+  }
+}
+
+module.exports = {
+  connectToRabbitMQ,
+  publishEvent,
+};
