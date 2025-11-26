@@ -91,3 +91,4 @@
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-26T17:12:16.449Z"}
 {"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-11-26T17:12:39.168Z"}
 {"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-26T17:12:39.170Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-26T17:12:39.787Z"}
