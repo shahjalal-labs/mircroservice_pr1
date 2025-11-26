@@ -17,6 +17,7 @@ const upload = multer({
   },
 }).single("file");
 
+//w: (start)╭──────────── uploadMedia ────────────╮
 router.post(
   "/upload",
 
@@ -45,6 +46,7 @@ router.post(
   },
   uploadMedia,
 );
+//w: (end)  ╰──────────── uploadMedia ────────────╯
 
 router.get("/get", authenticateRequest);
 
