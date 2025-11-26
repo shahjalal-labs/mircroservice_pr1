@@ -73,3 +73,5 @@
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T15:14:11.730Z"}
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T15:14:45.980Z"}
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T15:14:59.429Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T15:17:09.001Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T15:17:18.210Z"}

@@ -1426,3 +1426,24 @@
 {"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-26T15:14:59.428Z"}
 {"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:14:59.428Z"}
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T15:14:59.429Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-26T15:17:09.000Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:17:09.000Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T15:17:09.001Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-26T15:17:18.208Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:17:18.209Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T15:17:18.210Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-26T15:19:04.449Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:19:04.450Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-11-26T15:19:04.450Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-26T15:19:06.445Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:19:06.445Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-11-26T15:19:06.446Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-26T15:19:07.333Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:19:07.333Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-11-26T15:19:07.334Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-11-26T15:19:16.419Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-26T15:19:16.419Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-11-26T15:19:16.644Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-26T15:19:21.141Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-26T15:19:21.141Z"}
+{"level":"info","message":"Response received from media service: 201","service":"api-gateway","timestamp":"2025-11-26T15:19:24.448Z"}
