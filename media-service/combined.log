@@ -141,3 +141,17 @@
 {"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T16:45:15.328Z"}
 {"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-26T16:45:18.563Z"}
 {"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T16:45:19.244Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-26T16:49:10.254Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T16:49:11.111Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-26T16:49:22.379Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T16:49:23.115Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-26T16:49:35.931Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T16:49:36.602Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-26T16:49:42.855Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T16:49:44.200Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-26T16:49:57.134Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T16:49:57.879Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-26T16:50:45.138Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T16:50:46.108Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-26T16:51:34.257Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T16:51:35.015Z"}
