@@ -1,6 +1,7 @@
 const Post = require("../models/Post");
 const { log } = require("../utils/consoleLog");
 const logger = require("../utils/logger");
+const { publishEvent } = require("../utils/rabbitmq");
 const { validateCreatePost } = require("../utils/validation");
 
 const { stringify, parse } = JSON;
@@ -141,11 +142,13 @@ const deletePost = async (req, res, next) => {
       });
     }
 
-
     // publish post delete method ->
 
-    // await publi
-
+    await publishEvent("post.deleted", {
+      postId: post._id.toString(),
+      userId: req.user.userId,
+      mediaIds: post.mediaIds,
+    });
 
     await invalidatePostKey(req, postId);
     res.json({

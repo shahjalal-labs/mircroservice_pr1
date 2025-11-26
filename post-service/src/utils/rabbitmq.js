@@ -25,6 +25,7 @@ async function connectToRabbitMQ() {
 }
 //w: (end)  ╰──────────── connectToRabbitMQ ────────────╯
 
+//w: (start)╭──────────── publishEvent ────────────╮
 async function publishEvent(routingKey, message) {
   if (!channel) {
     await connectToRabbitMQ();
@@ -34,7 +35,9 @@ async function publishEvent(routingKey, message) {
     routingKey,
     Buffer.from(JSON.stringify(message)),
   );
+  logger.info(`Event published:${routingKey}`);
 }
+//w: (end)  ╰──────────── publishEvent ────────────╯
 
 module.exports = {
   connectToRabbitMQ,
