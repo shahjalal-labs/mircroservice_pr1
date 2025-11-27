@@ -9,7 +9,7 @@ const logger = require("./utils/logger");
 const errorHandler = require("./middleware/errorHandler");
 
 const mediaRoutes = require("./routes/media-routes");
-const { connectToRabbitMQ } = require("./utils/rabbitmq");
+const { connectToRabbitMQ, consumeEvent } = require("./utils/rabbitmq");
 
 const app = express();
 
@@ -41,6 +41,9 @@ app.use(errorHandler);
 async function startServer() {
   try {
     await connectToRabbitMQ();
+
+    // consume all the events
+    await consumeEvent("porst.deleted");
     app.listen(PORT, () => {
       logger.info(`Media service is running on port ${PORT}`);
     });
