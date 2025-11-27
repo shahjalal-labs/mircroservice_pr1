@@ -1491,3 +1491,12 @@
 {"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-11-27T12:51:28.104Z"}
 {"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-11-27T12:51:28.104Z"}
 {"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-11-27T12:51:28.104Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-27T13:59:12.223Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-27T13:59:12.223Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-11-27T13:59:12.225Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-11-27T13:59:17.897Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-11-27T13:59:17.897Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-11-27T13:59:18.168Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-11-27T13:59:20.739Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-27T13:59:20.740Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-27T13:59:20.742Z"}
