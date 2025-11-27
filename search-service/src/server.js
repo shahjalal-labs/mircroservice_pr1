@@ -8,7 +8,8 @@ const helmet = require("helmet");
 const logger = require("./utils/logger");
 const searchRoutes = require("./routes//search-routes");
 const errorHandler = require("./middleware/errorHandler");
-const { connectToRabbitMQ } = require("./utils/rabbitmq");
+const { connectToRabbitMQ, consumeEvent } = require("./utils/rabbitmq");
+const { handlePostCreated } = require("./event-handlers/search-event-handler");
 
 const app = express();
 const port = process.env.PORT || 3004;
@@ -39,6 +40,8 @@ app.use(errorHandler);
 async function startServer() {
   try {
     await connectToRabbitMQ();
+    await consumeEvent("post.created", handlePostCreated);
+    await consumeEvent("post.deleted");
   } catch (error) {}
 }
 
