@@ -26,6 +26,12 @@ const searchPostSchema = new mongoose.Schema(
   },
 );
 
+searchPostSchema.index({
+  content: "text",
+});
+searchPostSchema.index({
+  createdAt: -1,
+});
 const Search = mongoose.model("Search", searchPostSchema);
 
 module.exports = Search;
