@@ -1506,3 +1506,15 @@
 {"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-11-27T14:01:35.652Z"}
 {"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-27T14:01:35.653Z"}
 {"level":"info","message":"Response received from media service: 200","service":"api-gateway","timestamp":"2025-11-27T14:01:35.726Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-11-27T14:02:21.576Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-27T14:02:21.576Z"}
+{"level":"info","message":"Response received from media service: 200","service":"api-gateway","timestamp":"2025-11-27T14:02:21.639Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-11-27T14:02:23.908Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-27T14:02:23.908Z"}
+{"level":"info","message":"Response received from media service: 200","service":"api-gateway","timestamp":"2025-11-27T14:02:23.972Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-11-27T14:02:24.804Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-27T14:02:24.804Z"}
+{"level":"info","message":"Response received from media service: 200","service":"api-gateway","timestamp":"2025-11-27T14:02:24.867Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-11-27T14:02:26.160Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-27T14:02:26.160Z"}
+{"level":"info","message":"Response received from media service: 200","service":"api-gateway","timestamp":"2025-11-27T14:02:26.223Z"}
