@@ -345,3 +345,5 @@
 {"level":"info","message":"Request body, [object Object]","service":"media-service","timestamp":"2025-11-27T14:02:24.806Z"}
 {"level":"info","message":"Received GET request to /api/media/get","service":"media-service","timestamp":"2025-11-27T14:02:26.161Z"}
 {"level":"info","message":"Request body, [object Object]","service":"media-service","timestamp":"2025-11-27T14:02:26.161Z"}
+{"0":"f","1":"b","10":"r","11":"h","12":"y","13":"p","14":"g","15":"h","16":"w","17":"p","18":"g","19":"w","2":"u","3":"e","4":"j","5":"i","6":"a","7":"q","8":"l","9":"g","level":"info","message":"Media deleted successfuly from cloud stroage","service":"media-service","timestamp":"2025-11-27T14:12:01.133Z"}
+{"level":"info","message":"Processed deletion of media for post id 69285c1bd304dba7793592b2","service":"media-service","timestamp":"2025-11-27T14:12:01.192Z"}

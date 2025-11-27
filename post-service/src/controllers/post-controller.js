@@ -131,10 +131,11 @@ const deletePost = async (req, res, next) => {
   try {
     const postId = req.params.id;
 
-    const post = await Post.deleteOne({
+    const post = await Post.findOneAndDelete({
       _id: postId,
       user: req.user.userId,
     });
+
     if (!post) {
       return res.status(404).json({
         message: "Post not found",
