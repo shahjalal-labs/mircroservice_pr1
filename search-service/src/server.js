@@ -6,6 +6,9 @@ const Redis = require("ioredis");
 const cors = require("cors");
 const helmet = require("helmet");
 const logger = require("./utils/logger");
+const searchRoutes = require("./routes//search-routes");
+const errorHandler = require("./middleware/errorHandler");
+const { connectToRabbitMQ } = require("./utils/rabbitmq");
 
 const app = express();
 const port = process.env.PORT || 3004;
@@ -29,3 +32,14 @@ app.use((req, res, next) => {
   logger.info(`Request body, `, req.body);
   next();
 });
+
+app.use("/api/search", searchRoutes);
+app.use(errorHandler);
+
+async function startServer() {
+  try {
+    await connectToRabbitMQ();
+  } catch (error) {}
+}
+
+startServer();

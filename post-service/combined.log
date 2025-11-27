@@ -128,3 +128,9 @@
 {"level":"info","message":"Received DELETE request to /api/posts/69285c1bd304dba7793592b2","service":"identity-service","timestamp":"2025-11-27T14:11:59.595Z"}
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-27T14:11:59.596Z"}
 {"level":"info","message":"Event published:post.deleted","service":"identity-service","timestamp":"2025-11-27T14:11:59.658Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-11-27T15:30:28.508Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-27T15:30:28.515Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-27T15:30:29.224Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-11-27T15:30:35.895Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-27T15:30:35.900Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-27T15:30:36.603Z"}
