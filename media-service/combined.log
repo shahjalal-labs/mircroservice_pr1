@@ -267,3 +267,13 @@
 {"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-27T12:51:59.467Z"}
 {"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-27T12:57:05.782Z"}
 {"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-27T12:57:06.798Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-27T13:01:44.022Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-27T13:01:45.188Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-27T13:01:48.390Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-27T13:01:49.601Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-27T13:02:01.969Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-27T13:02:02.729Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-27T13:02:19.301Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-11-27T13:02:42.437Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-27T13:02:42.440Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-27T13:02:43.200Z"}

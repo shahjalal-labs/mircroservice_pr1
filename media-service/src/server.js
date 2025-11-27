@@ -9,6 +9,7 @@ const logger = require("./utils/logger");
 const errorHandler = require("./middleware/errorHandler");
 
 const mediaRoutes = require("./routes/media-routes");
+const { connectToRabbitMQ } = require("./utils/rabbitmq");
 
 const app = express();
 
@@ -19,7 +20,6 @@ mongoose
   .connect(process.env.MONGODB_URI)
   .then(() => logger.info("Connected to mongodb"))
   .catch((e) => logger.error("Mongo connection error", e));
-
 
 //middleware
 app.use(helmet());
@@ -38,6 +38,13 @@ app.use("/api/media", mediaRoutes);
 
 app.use(errorHandler);
 
-app.listen(PORT, () => {
-  logger.info(`Media service is running on port ${PORT}`);
-});
+async function startServer() {
+  try {
+    await connectToRabbitMQ();
+    app.listen(PORT, () => {
+      logger.info(`Media service is running on port ${PORT}`);
+    });
+  } catch (error) {}
+}
+
+startServer();
