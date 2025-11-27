@@ -263,3 +263,7 @@
 {"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T17:28:41.381Z"}
 {"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-26T17:29:08.397Z"}
 {"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-26T17:29:09.105Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-27T12:51:58.718Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-27T12:51:59.467Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-27T12:57:05.782Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-27T12:57:06.798Z"}

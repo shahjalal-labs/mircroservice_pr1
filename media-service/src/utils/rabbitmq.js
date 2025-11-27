@@ -37,6 +37,7 @@ async function publishEvent(routingKey, message) {
 }
 //w: (end)  ╰──────────── publishEvent ────────────╯
 
+//w: (start)╭──────────── consumeEvent ────────────╮
 async function consumeEvent(routingKey, callback) {
   if (!channel) {
     await connectToRabbitMQ();
@@ -54,5 +55,6 @@ async function consumeEvent(routingKey, callback) {
 
   logger.info(`Subscribed to event: ${routingKey}`);
 }
+//w: (end)  ╰──────────── consumeEvent ────────────╯
 
 module.exports = { connectToRabbitMQ, publishEvent, consumeEvent };
