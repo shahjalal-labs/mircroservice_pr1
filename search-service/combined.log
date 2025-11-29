@@ -258,3 +258,11 @@
 {"level":"info","message":"Received GET request to /api/search/posts","service":"search-service","timestamp":"2025-11-29T16:50:57.473Z"}
 {"level":"info","message":"Request body, ","service":"search-service","timestamp":"2025-11-29T16:50:57.473Z"}
 {"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-11-29T16:50:57.473Z"}
+{"level":"info","message":"Received GET request to /api/search/posts","service":"search-service","timestamp":"2025-11-29T16:51:22.434Z"}
+{"level":"info","message":"Request body, ","service":"search-service","timestamp":"2025-11-29T16:51:22.434Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-11-29T16:51:22.435Z"}
+{"level":"info","message":"Received GET request to /api/search","service":"search-service","timestamp":"2025-11-29T16:51:26.835Z"}
+{"level":"info","message":"Request body, ","service":"search-service","timestamp":"2025-11-29T16:51:26.835Z"}
+{"level":"info","message":"Received GET request to /api/search/posts","service":"search-service","timestamp":"2025-11-29T16:51:29.779Z"}
+{"level":"info","message":"Request body, ","service":"search-service","timestamp":"2025-11-29T16:51:29.779Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-11-29T16:51:29.779Z"}
