@@ -1536,3 +1536,11 @@
 {"level":"info","message":"Received DELETE request to /v1/posts/69285c1bd304dba7793592b2","service":"api-gateway","timestamp":"2025-11-27T14:11:59.593Z"}
 {"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-27T14:11:59.594Z"}
 {"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2025-11-27T14:11:59.660Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-11-29T12:10:11.221Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T12:10:11.222Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-11-29T12:10:11.222Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-11-29T12:10:11.223Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-11-29T12:16:13.903Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T12:16:13.904Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-11-29T12:16:13.904Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-11-29T12:16:13.904Z"}

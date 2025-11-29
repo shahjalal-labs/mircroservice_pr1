@@ -347,3 +347,6 @@
 {"level":"info","message":"Request body, [object Object]","service":"media-service","timestamp":"2025-11-27T14:02:26.161Z"}
 {"0":"f","1":"b","10":"r","11":"h","12":"y","13":"p","14":"g","15":"h","16":"w","17":"p","18":"g","19":"w","2":"u","3":"e","4":"j","5":"i","6":"a","7":"q","8":"l","9":"g","level":"info","message":"Media deleted successfuly from cloud stroage","service":"media-service","timestamp":"2025-11-27T14:12:01.133Z"}
 {"level":"info","message":"Processed deletion of media for post id 69285c1bd304dba7793592b2","service":"media-service","timestamp":"2025-11-27T14:12:01.192Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-11-29T12:08:56.273Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-11-29T12:08:56.277Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-29T12:08:57.073Z"}

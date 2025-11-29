@@ -134,3 +134,6 @@
 {"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-11-27T15:30:35.895Z"}
 {"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-27T15:30:35.900Z"}
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-27T15:30:36.603Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Error connecting to rabbit mq","service":"identity-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-11-29T12:09:32.276Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-29T12:09:32.278Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-29T12:09:33.015Z"}
