@@ -133,10 +133,12 @@ app.use(
     parseReqBody: false,
   }),
 );
+
+// search service proxy setting up
 app.use(
-  "/v1/posts",
+  "/v1/search",
   validateToken,
-  proxy(process.env.POST_SERVICE_URL, {
+  proxy(process.env.SEARCH_SERVICE_URL, {
     ...proxyOptions,
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
       proxyReqOpts.headers["Content-Type"] = "application/json";
@@ -146,7 +148,7 @@ app.use(
     },
     userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
       logger.info(
-        `Response received from Post service: ${proxyRes.statusCode}`,
+        `Response received from Search service: ${proxyRes.statusCode}`,
       );
 
       return proxyResData;
