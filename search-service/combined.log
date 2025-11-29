@@ -21,3 +21,4 @@
 {"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-11-29T12:57:05.034Z"}
 {"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-11-29T12:57:05.038Z"}
 {"level":"info","message":"Search service is running on port: 3004","service":"search-service","timestamp":"2025-11-29T12:57:05.039Z"}
+{"level":"info","message":"Search post created: 692aedb94537385258b09bdf, 692aedb92a021d27abee18bc","service":"search-service","timestamp":"2025-11-29T12:57:29.880Z"}
