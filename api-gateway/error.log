@@ -82,3 +82,4 @@
 {"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-11-26T16:59:38.542Z"}
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-27T13:59:20.742Z"}
 {"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-11-29T16:42:44.358Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-11-29T16:49:11.959Z"}

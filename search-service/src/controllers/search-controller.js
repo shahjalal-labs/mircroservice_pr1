@@ -6,11 +6,11 @@ const logger = require("../utils/logger");
 const searchController = async (req, res) => {
   logger.info("Search endpoint hit!");
   try {
-    const { query } = req;
+    const { query } = req.query;
     const results = await Search.find(
       {
         $text: {
-          $search: query,
+          $search: query || "",
         },
       },
       {
