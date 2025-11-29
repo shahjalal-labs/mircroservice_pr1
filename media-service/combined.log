@@ -350,3 +350,7 @@
 {"code":"ECONNREFUSED","level":"error","message":"Error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-11-29T12:08:56.273Z"}
 {"code":"ECONNREFUSED","level":"error","message":"Error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-11-29T12:08:56.277Z"}
 {"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-29T12:08:57.073Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-11-29T12:24:12.112Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-11-29T12:24:12.162Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-11-29T12:24:12.163Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-11-29T12:24:12.797Z"}
