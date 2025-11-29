@@ -1718,3 +1718,18 @@
 {"level":"info","message":"Received GET request to /v1/search/posts?query=2nd","service":"api-gateway","timestamp":"2025-11-29T16:43:19.296Z"}
 {"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-29T16:43:19.296Z"}
 {"level":"info","message":"Response received from Search service: 500","service":"api-gateway","timestamp":"2025-11-29T16:43:19.299Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=%272nd%27","service":"api-gateway","timestamp":"2025-11-29T16:44:09.092Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-29T16:44:09.092Z"}
+{"level":"info","message":"Response received from Search service: 500","service":"api-gateway","timestamp":"2025-11-29T16:44:09.095Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=%272nd%27","service":"api-gateway","timestamp":"2025-11-29T16:44:10.131Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-29T16:44:10.131Z"}
+{"level":"info","message":"Response received from Search service: 500","service":"api-gateway","timestamp":"2025-11-29T16:44:10.134Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=%272nd%27","service":"api-gateway","timestamp":"2025-11-29T16:44:11.303Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-29T16:44:11.303Z"}
+{"level":"info","message":"Response received from Search service: 500","service":"api-gateway","timestamp":"2025-11-29T16:44:11.306Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=shah","service":"api-gateway","timestamp":"2025-11-29T16:44:29.454Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-29T16:44:29.455Z"}
+{"level":"info","message":"Response received from Search service: 500","service":"api-gateway","timestamp":"2025-11-29T16:44:29.457Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=shah","service":"api-gateway","timestamp":"2025-11-29T16:44:30.353Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-29T16:44:30.353Z"}
+{"level":"info","message":"Response received from Search service: 500","service":"api-gateway","timestamp":"2025-11-29T16:44:30.356Z"}
