@@ -11,3 +11,27 @@ services:
       -rabbitmq
     environment: -REDIS_URL=redis://redis:6379
       -RABBITMQ_URL=amqp://rabbitmq:5672
+
+  identity-service:
+  build: .identity-service
+  env_file: ./identity-service/.env
+  depends_on: -redis
+    -rabbitmq
+  environment: -REDIS_URL=redis://redis:6379
+    -RABBITMQ_URL=amqp://rabbitmq:5672
+
+  post-service:
+    build: ./post-service
+    env_file: ./post-service/.env
+    depends_on: -redis
+      -rabbitmq
+    environment: -REDIS_URL=redis://redis:6379
+      -RABBITMQ_URL=amqp://rabbitmq:5672
+
+    media-service:
+      build: ./media-service
+      env_file: ./media-service/.env
+      depends_on: -redis
+        -rabbitmq
+      environment: -REDIS_URL=redis://redis:6379
+        -RABBITMQ_URL=amqp://rabbitmq:5672
