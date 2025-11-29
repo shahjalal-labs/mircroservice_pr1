@@ -1,5 +1,7 @@
 //
 const amqp = require("amqplib");
+const logger = require("./logger");
+
 let connection = null;
 let channel = null;
 
@@ -18,7 +20,7 @@ async function connectToRabbitMQ() {
   }
 }
 
-async function consumeEvent() {
+async function consumeEvent(routingKey, callback) {
   if (!channel) {
     await connectToRabbitMQ();
   }
@@ -32,6 +34,7 @@ async function consumeEvent() {
       channel.ack(msg);
     }
   });
+
   logger.info(`Subscribed to event: ${routingKey}`);
 }
 

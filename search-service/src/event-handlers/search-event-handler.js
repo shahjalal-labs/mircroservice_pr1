@@ -23,4 +23,15 @@ async function handlePostCreated(event) {
 }
 //w: (end)  ╰──────────── handlePostCreated ────────────╯
 
-module.exports = { handlePostCreated };
+//w: (start)╭──────────── handlePostDeleted ────────────╮
+async function handlePostDeleted(event) {
+  try {
+    await Search.findOneAndDelete({ postId: event.postId });
+    logger.info(`Search post deleted: ${event.postId}}`);
+  } catch (error) {
+    logger.error(error, "Error handling post deletion event");
+  }
+}
+//w: (end)  ╰──────────── handlePostDeleted ────────────╯
+
+module.exports = { handlePostCreated, handlePostDeleted };

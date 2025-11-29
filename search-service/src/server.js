@@ -5,14 +5,17 @@ const mongoose = require("mongoose");
 const Redis = require("ioredis");
 const cors = require("cors");
 const helmet = require("helmet");
-const logger = require("./utils/logger");
 const searchRoutes = require("./routes//search-routes");
 const errorHandler = require("./middleware/errorHandler");
 const { connectToRabbitMQ, consumeEvent } = require("./utils/rabbitmq");
-const { handlePostCreated } = require("./event-handlers/search-event-handler");
+const {
+  handlePostCreated,
+  handlePostDeleted,
+} = require("./event-handlers/search-event-handler");
+const logger = require("./utils/logger");
 
 const app = express();
-const port = process.env.PORT || 3004;
+const PORT = process.env.PORT || 3004;
 
 // connect to mongodb
 
@@ -37,12 +40,25 @@ app.use((req, res, next) => {
 app.use("/api/search", searchRoutes);
 app.use(errorHandler);
 
+app.use("/api/search", searchRoutes);
+
+app.use(errorHandler);
+
 async function startServer() {
   try {
     await connectToRabbitMQ();
+
+    //consume the events / subscribe to the events
     await consumeEvent("post.created", handlePostCreated);
-    await consumeEvent("post.deleted");
-  } catch (error) {}
+    await consumeEvent("post.deleted", handlePostDeleted);
+
+    app.listen(PORT, () => {
+      logger.info(`Search service is running on port: ${PORT}`);
+    });
+  } catch (e) {
+    logger.error(e, "Failed to start search service");
+    process.exit(1);
+  }
 }
 
 startServer();
