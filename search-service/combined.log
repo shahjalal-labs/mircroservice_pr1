@@ -229,3 +229,32 @@
 {"level":"info","message":"Received GET request to /api/search/posts?query=first","service":"search-service","timestamp":"2025-11-29T16:50:40.129Z"}
 {"level":"info","message":"Request body, ","service":"search-service","timestamp":"2025-11-29T16:50:40.129Z"}
 {"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-11-29T16:50:40.130Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=first","service":"search-service","timestamp":"2025-11-29T16:50:41.435Z"}
+{"level":"info","message":"Request body, ","service":"search-service","timestamp":"2025-11-29T16:50:41.435Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-11-29T16:50:41.435Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"search-service","timestamp":"2025-11-29T16:50:46.324Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-11-29T16:50:46.356Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-11-29T16:50:46.358Z"}
+{"level":"info","message":"Search service is running on port: 3004","service":"search-service","timestamp":"2025-11-29T16:50:46.359Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"search-service","timestamp":"2025-11-29T16:50:48.966Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-11-29T16:50:48.970Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-11-29T16:50:48.973Z"}
+{"level":"info","message":"Search service is running on port: 3004","service":"search-service","timestamp":"2025-11-29T16:50:48.974Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=first","service":"search-service","timestamp":"2025-11-29T16:50:50.053Z"}
+{"level":"info","message":"Request body, ","service":"search-service","timestamp":"2025-11-29T16:50:50.053Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-11-29T16:50:50.053Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=first","service":"search-service","timestamp":"2025-11-29T16:50:51.053Z"}
+{"level":"info","message":"Request body, ","service":"search-service","timestamp":"2025-11-29T16:50:51.053Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-11-29T16:50:51.053Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=first","service":"search-service","timestamp":"2025-11-29T16:50:51.876Z"}
+{"level":"info","message":"Request body, ","service":"search-service","timestamp":"2025-11-29T16:50:51.876Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-11-29T16:50:51.876Z"}
+{"level":"info","message":"Received GET request to /api/search/posts","service":"search-service","timestamp":"2025-11-29T16:50:54.972Z"}
+{"level":"info","message":"Request body, ","service":"search-service","timestamp":"2025-11-29T16:50:54.972Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-11-29T16:50:54.973Z"}
+{"level":"info","message":"Received GET request to /api/search/posts","service":"search-service","timestamp":"2025-11-29T16:50:55.899Z"}
+{"level":"info","message":"Request body, ","service":"search-service","timestamp":"2025-11-29T16:50:55.900Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-11-29T16:50:55.900Z"}
+{"level":"info","message":"Received GET request to /api/search/posts","service":"search-service","timestamp":"2025-11-29T16:50:57.473Z"}
+{"level":"info","message":"Request body, ","service":"search-service","timestamp":"2025-11-29T16:50:57.473Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-11-29T16:50:57.473Z"}

@@ -1820,3 +1820,24 @@
 {"level":"info","message":"Received GET request to /v1/search/posts?query=first","service":"api-gateway","timestamp":"2025-11-29T16:50:40.128Z"}
 {"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-29T16:50:40.128Z"}
 {"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2025-11-29T16:50:40.181Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=first","service":"api-gateway","timestamp":"2025-11-29T16:50:41.432Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-29T16:50:41.432Z"}
+{"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2025-11-29T16:50:41.486Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=first","service":"api-gateway","timestamp":"2025-11-29T16:50:50.044Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-29T16:50:50.045Z"}
+{"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2025-11-29T16:50:50.115Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=first","service":"api-gateway","timestamp":"2025-11-29T16:50:51.050Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-29T16:50:51.051Z"}
+{"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2025-11-29T16:50:51.106Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=first","service":"api-gateway","timestamp":"2025-11-29T16:50:51.874Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-29T16:50:51.874Z"}
+{"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2025-11-29T16:50:51.929Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts","service":"api-gateway","timestamp":"2025-11-29T16:50:54.970Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-29T16:50:54.971Z"}
+{"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2025-11-29T16:50:55.025Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts","service":"api-gateway","timestamp":"2025-11-29T16:50:55.898Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-29T16:50:55.898Z"}
+{"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2025-11-29T16:50:55.952Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts","service":"api-gateway","timestamp":"2025-11-29T16:50:57.471Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-11-29T16:50:57.471Z"}
+{"level":"info","message":"Response received from Search service: 200","service":"api-gateway","timestamp":"2025-11-29T16:50:57.525Z"}
