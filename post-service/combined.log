@@ -140,3 +140,11 @@
 {"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-11-29T12:23:59.829Z"}
 {"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-29T12:23:59.831Z"}
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-29T12:24:00.676Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"identity-service","timestamp":"2025-11-29T12:46:14.948Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-11-29T12:46:14.948Z"}
+{"level":"info","message":"Create post endpoint hit","service":"identity-service","timestamp":"2025-11-29T12:46:14.949Z"}
+{"level":"info","message":"Event published:post.created","service":"identity-service","timestamp":"2025-11-29T12:46:15.020Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"692aeb16b5f2850fad704753","content":"Search service","createdAt":"2025-11-29T12:46:14.953Z","mediaIds":[],"updatedAt":"2025-11-29T12:46:14.953Z","user":"691f385eaac79a4a7fcd9b97"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"692aeb16b5f2850fad704753","content":"Search service","createdAt":"2025-11-29T12:46:14.953Z","mediaIds":[],"updatedAt":"2025-11-29T12:46:14.953Z","user":"691f385eaac79a4a7fcd9b97"},"level":"info","message":"Post created successfully","service":"identity-service","timestamp":"2025-11-29T12:46:15.021Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-11-29T12:51:14.486Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-29T12:51:14.488Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-29T12:51:15.123Z"}
