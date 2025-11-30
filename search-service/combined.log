@@ -309,3 +309,11 @@
 {"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-11-30T14:17:15.523Z"}
 {"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-11-30T14:17:15.528Z"}
 {"level":"info","message":"Search service is running on port: 3004","service":"search-service","timestamp":"2025-11-30T14:17:15.529Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"search-service","timestamp":"2025-11-30T14:33:46.668Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-11-30T14:33:46.673Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-11-30T14:33:46.676Z"}
+{"level":"info","message":"Search service is running on port: 3004","service":"search-service","timestamp":"2025-11-30T14:33:46.677Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"search-service","timestamp":"2025-11-30T14:39:06.176Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-11-30T14:39:06.180Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-11-30T14:39:06.183Z"}
+{"level":"info","message":"Search service is running on port: 3004","service":"search-service","timestamp":"2025-11-30T14:39:06.184Z"}

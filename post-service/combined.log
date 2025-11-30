@@ -254,3 +254,9 @@
 {"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-11-30T14:17:22.445Z"}
 {"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-30T14:17:22.451Z"}
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-30T14:17:23.238Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-11-30T14:33:31.015Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-30T14:33:31.017Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-30T14:33:31.677Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-11-30T14:39:13.767Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"identity-service","timestamp":"2025-11-30T14:39:13.769Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-11-30T14:39:14.506Z"}
