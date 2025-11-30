@@ -93,6 +93,7 @@
 ├── search-service
 │   ├── bun.lock
 │   ├── combined.log
+│   ├── Dockerfile
 │   ├── error.log
 │   ├── package.json
 │   └── src
@@ -111,10 +112,11 @@
 │       └── utils
 │           ├── logger.js
 │           └── rabbitmq.js
-└── src
-    └── docs
-        └── cli_commands.md
+├── src
+│   └── docs
+│       └── cli_commands.md
+└── structure.md
 
-39 directories, 74 files
+39 directories, 76 files
 
 ```
